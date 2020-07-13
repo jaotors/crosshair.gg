@@ -6,7 +6,7 @@ around the game. This will primarily help players to get more
 viewers or be scouted by an esports org for future competitve
 endeavors.
 
-## Libraries that will be use.
+## Libraries
 - [Create React App](https://github.com/facebook/create-react-app)
 - [tailwindcss](https://tailwindcss.com/)
 - [RxJS](https://rxjs-dev.firebaseapp.com/)

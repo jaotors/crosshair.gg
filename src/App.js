@@ -1,12 +1,19 @@
 import React from 'react';
-import './styles/main.css';
+import Header from './components/header';
+import Home from './pages/home';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-function App() {
+const App = () => {
   return (
-    <div className="font-brand text-primary-100 font-bold text-2xl">
-      Crosshair.gg
-    </div>
+    <Router>
+      <Header />
+      <Switch>
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
+    </Router>
   );
-}
+};
 
 export default App;
