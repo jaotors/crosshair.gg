@@ -4,7 +4,7 @@ import { ReactComponent as Logo } from '../assets/images/logo.svg';
 const Navbar = () => {
   return (
     <div
-      className="w-full bg-base-100 bg-opacity-75 fixed"
+      className="w-full bg-base-100 bg-opacity-75 absolute"
       style={{ top: '48px' }}
     >
       <nav className="container mx-auto">

@@ -1,0 +1,6 @@
+section.home {
+  @apply bg-base-100 bg-left-top bg-no-repeat;
+
+  background-image: url('assets/images/home-background.jpg'),
+    linear-gradient(to bottom, rgba(37, 38, 46, 1), rgba(37, 38, 46, 0.25));
+}
