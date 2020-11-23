@@ -17,6 +17,9 @@ module.exports = {
       primary: ['Chakra Petch', 'sans-serif'],
       secondary: ['Nunito Sans', 'sans-serif'],
     },
+    boxShadow: {
+      DEFAULT: '0 10px 25px rgba(0, 0, 0, 0.15)',
+    },
     extend: {
       colors: {
         primary: {
@@ -37,5 +40,5 @@ module.exports = {
   variants: {
     gradients: ['responsive', 'hover'],
   },
-  plugins: [require('./plugins/gradients'), require('./plugins/brand-text')],
-};
+  plugins: [require('./plugins/gradients'), require('./plugins/text-brand')],
+}

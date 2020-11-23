@@ -2,7 +2,7 @@ const plugin = require('tailwindcss/plugin');
 
 module.exports = plugin(function ({ addComponents, theme }) {
   const text = {
-    '.brand-text': {
+    '.text-brand': {
       backgroundImage: `linear-gradient(to right, ${theme(
         'colors.primary.1'
       )}, ${theme('colors.primary.2')})`,

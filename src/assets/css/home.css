@@ -1,4 +1,4 @@
-section.home {
+.home {
   @apply bg-base-100 bg-left-top bg-no-repeat;
 
   background-image: url('assets/images/home-background.jpg'),
