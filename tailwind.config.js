@@ -39,6 +39,7 @@ module.exports = {
   },
   variants: {
     gradients: ['responsive', 'hover'],
+    margin: ['last'],
   },
   plugins: [require('./plugins/gradients'), require('./plugins/text-brand')],
 }
