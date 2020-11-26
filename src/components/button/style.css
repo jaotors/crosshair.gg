@@ -1,0 +1,16 @@
+.btn {
+  @apply relative block rounded-md font-bold font-primary text-center text-white bg-gradient-brand;
+  padding: 1px;
+
+  & > .inner {
+    @apply block p-4 rounded-md;
+
+    &.-primary {
+      @apply bg-gradient-brand;
+    }
+
+    &.-secondary {
+      @apply bg-base-200;
+    }
+  }
+}

@@ -3,11 +3,12 @@ import cx from 'clsx'
 import { css } from 'emotion/macro'
 import { rem } from 'polished'
 
-import Card from '../components/card'
+import Card from '../../components/card'
 
-import GlobalLegendRanking from '../components/global-legend-ranking'
+import GlobalLegendRanking from '../../components/global-legend-ranking'
+import Leaderboard from '../../components/leaderboard'
 
-import TOP_LABEL_USERS from '../fixtures/top-label-users'
+import TOP_LABEL_USERS from '../../fixtures/top-label-users'
 
 const Home = () => {
   return (
@@ -34,14 +35,8 @@ const Home = () => {
           ))}
         </div>
         <div className='grid grid-cols-3 gap-4'>
-          <div className='col-span-2'>
-            <GlobalLegendRanking />
-          </div>
-          <div>
-            <h2 className='text-3xl font-primary mb-6 font-bold text-white'>
-              Leaderboards
-            </h2>
-          </div>
+          <GlobalLegendRanking />
+          <Leaderboard />
         </div>
       </div>
     </section>

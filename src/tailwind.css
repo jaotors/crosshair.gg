@@ -1,9 +1,14 @@
-
 @import './index.css';
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
-@import './assets/css/navbar.css';
-@import './assets/css/home.css';
-@import './assets/css/card.css';
-@import './assets/css/progress-bar.css';
+
+/* pages css */
+@import './pages/home/style.css';
+
+/* components css */
+@import './components/button/style.css';
+@import './components/navbar/style.css';
+@import './components/card/style.css';
+@import './components/progress-bar/style.css';
+@import './components/leaderboard/style.css';

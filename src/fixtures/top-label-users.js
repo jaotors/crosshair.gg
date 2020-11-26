@@ -1,4 +1,4 @@
-import { parseToDigits } from '../helpers/parseToDigits'
+import parseToDigits from '../helpers/parseToDigits'
 
 import shroud from '../assets/images/shroud.png'
 import chadd from '../assets/images/chadd.png'

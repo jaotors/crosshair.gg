@@ -1,6 +1,6 @@
 import React from 'react'
-import ProgressBar from './progress-bar'
-import LEGENDS from '../fixtures/legends'
+import ProgressBar from '../progress-bar'
+import LEGENDS from '../../fixtures/legends'
 
 const Item = ({ legend }) => (
   <li className='grid grid-cols-3 gap-8 text-white mb-8 last:mb-0'>
@@ -28,7 +28,7 @@ const LegendRanking = () => (
       Global Legend Ranking
     </h2>
     <div className='rounded-md shadow-DEFAULT bg-base-200 bg-opacity-50'>
-      <div className='rounded-t-md p-4 grid grid-cols-3 gap-2 text-white font-bold bg-base-200'>
+      <div className='rounded-t-md px-6 py-4 grid grid-cols-3 gap-2 text-white font-bold bg-base-200'>
         <p>Legend</p>
         <p>Pick Rate</p>
         <p>Win Rate</p>
