@@ -7,6 +7,7 @@ import Card from '../../components/card'
 
 import GlobalLegendRanking from '../../components/global-legend-ranking'
 import Leaderboard from '../../components/leaderboard'
+import LatestNews from '../../components/latest-news'
 
 import TOP_LABEL_USERS from '../../fixtures/top-label-users'
 
@@ -20,7 +21,7 @@ const Home = () => {
         })
       )}
     >
-      <div className='container mx-auto'>
+      <div className='container mx-auto pb-20'>
         <h1
           className={cx(
             'text-white font-bold text-center',
@@ -38,6 +39,7 @@ const Home = () => {
           <GlobalLegendRanking />
           <Leaderboard />
         </div>
+        <LatestNews />
       </div>
     </section>
   )

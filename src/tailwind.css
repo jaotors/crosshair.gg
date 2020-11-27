@@ -11,4 +11,5 @@
 @import './components/navbar/style.css';
 @import './components/card/style.css';
 @import './components/progress-bar/style.css';
+@import './components/article/style.css';
 @import './components/leaderboard/style.css';
