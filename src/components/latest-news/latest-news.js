@@ -8,7 +8,9 @@ import LATEST_NEWS from '../../fixtures/latest-news'
 const LatestNews = () => {
   return (
     <>
-      <h2 className='text-white text-4xl font-primary mb-6'>Latest News</h2>
+      <h2 className='text-white text-4xl font-primary mb-6 font-bold'>
+        Latest News
+      </h2>
       {LATEST_NEWS.map((article, idx) => (
         <Article article={article} key={idx} />
       ))}
