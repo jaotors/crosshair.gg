@@ -1,0 +1,62 @@
+.footer {
+  @apply bg-base-200 py-6;
+
+  & > .content {
+    @apply flex gap-20;
+  }
+
+  & > .content > div > ul {
+    & > li {
+      @apply text-white font-bold font-primary;
+    }
+  }
+
+  & > .content > .links-list {
+    @apply grid grid-flow-col gap-20;
+
+    & > ul > li + li {
+      @apply text-base-400 mt-4 font-secondary font-normal;
+    }
+  }
+
+  & > .content > .social-media {
+    & > ul > li + li {
+      @apply mt-4;
+    }
+  }
+}
+
+.circle-icon {
+  @apply grid text-white rounded-full;
+
+  width: 48px;
+  height: 48px;
+  place-content: center;
+
+  &.twitter-icon {
+    background-color: #1da1f2;
+
+    & > svg {
+      width: 24px;
+      height: auto;
+    }
+  }
+
+  &.twitch-icon {
+    background-color: #6441a5;
+
+    & > svg {
+      width: 21px;
+      height: auto;
+    }
+  }
+
+  &.fb-icon {
+    background-color: #3b5998;
+
+    & > svg {
+      width: 24px;
+      height: auto;
+    }
+  }
+}
