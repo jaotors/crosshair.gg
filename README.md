@@ -9,7 +9,6 @@ endeavors.
 ## Libraries
 - [Create React App](https://github.com/facebook/create-react-app)
 - [tailwindcss](https://tailwindcss.com/)
-- [RxJS](https://rxjs-dev.firebaseapp.com/)
 
 ## Thanks to
 [Patrick James Lim](https://github.com/patrickjameslim) for giving this opportunity to
