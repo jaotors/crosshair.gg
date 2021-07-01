@@ -1,0 +1,12 @@
+.home {
+  @apply bg-base-100 bg-left-top bg-no-repeat;
+
+  padding-top: 109px;
+  background-image: url('/images/home-background.jpg'),
+    linear-gradient(to bottom, rgba(37, 38, 46, 1), rgba(37, 38, 46, 0.25));
+
+  & > div > .title {
+    @apply text-white font-bold text-center;
+    font-size: 72px;
+  }
+}

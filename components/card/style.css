@@ -1,0 +1,42 @@
+.card {
+  @apply relative bg-base-200 bg-opacity-50 rounded-lg p-6 shadow-base;
+
+  width: auto;
+  min-height: 169px;
+
+  &:before {
+    @apply absolute bg-gradient-brand left-0 right-0 top-0 bg-opacity-75 rounded-t-lg;
+    content: ' ';
+    height: 4px;
+  }
+
+  & > .header {
+    @apply flex justify-between items-center mb-6;
+  }
+
+  & > .header > .title {
+    @apply font-primary font-bold text-2xl text-white;
+  }
+
+  & > .header .link {
+    @apply font-secondary;
+  }
+
+  & > .content {
+    @apply flex;
+  }
+
+  & > .content > .avatar {
+    @apply mr-4;
+    width: 64px;
+    height: 64px;
+  }
+
+  & > .content > .sub > .name {
+    @apply text-2xl font-secondary text-white;
+  }
+
+  & > .content > .sub > .description {
+    @apply font-secondary text-white opacity-50;
+  }
+}
