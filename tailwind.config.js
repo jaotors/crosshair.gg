@@ -1,11 +1,5 @@
 module.exports = {
-  purge: [
-    'src/**/*.js',
-    'src/**/*.jsx',
-    'src/**/*.ts',
-    'src/**/*.tsx',
-    'public/**/*.html',
-  ],
+  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   theme: {
     screens: {
       sm: '640px',
@@ -18,7 +12,7 @@ module.exports = {
       secondary: ['Nunito Sans', 'sans-serif'],
     },
     boxShadow: {
-      DEFAULT: '0 10px 25px rgba(0, 0, 0, 0.15)',
+      base: '0 10px 25px rgba(0, 0, 0, 0.15)',
     },
     extend: {
       colors: {
@@ -30,7 +24,7 @@ module.exports = {
           100: '#25262e',
           200: '#373846',
           300: '#414252',
-          400: '#9b9ba2'
+          400: '#9b9ba2',
         },
       },
     },

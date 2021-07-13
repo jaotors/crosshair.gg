@@ -7,8 +7,9 @@ viewers or be scouted by an esports org for future competitve
 endeavors.
 
 ## Libraries
-- [Create React App](https://github.com/facebook/create-react-app)
+- [Next.js](https://nextjs.org/)
 - [tailwindcss](https://tailwindcss.com/)
+- [Storybook](https://storybook.js.org/)
 
 ## Thanks to
 [Patrick James Lim](https://github.com/patrickjameslim) for giving this opportunity to

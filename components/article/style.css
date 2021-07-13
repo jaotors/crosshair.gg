@@ -1,0 +1,23 @@
+.article {
+  @apply rounded-md shadow-base grid grid-cols-3 bg-base-200 bg-opacity-50;
+
+  & > .image {
+    @apply relative;
+  }
+
+  & > .image > img {
+    @apply w-full;
+  }
+
+  & > .block {
+    @apply col-span-2 p-6;
+  }
+
+  & > .block > .title {
+    @apply font-bold text-2xl text-white mb-8;
+  }
+
+  & > .block > .author {
+    @apply text-white opacity-50 font-secondary text-base mb-6;
+  }
+}
