@@ -7,8 +7,10 @@ import LEGENDS from '../../fixtures/legends'
 const Item = ({ legend }) => (
   <li className='grid grid-cols-3 gap-8 text-white mb-8 last:mb-0'>
     <div className='flex items-center'>
-      <Image className='mr-4 rounded-full' src={legend.img} alt='' layout='fill' />
-      <div className='avatar-description'>
+      <div className='avatar mr-4'>
+        <Image src={legend.img} alt={legend.legend} layout='fill' />
+      </div>
+      <div>
         <p className='mb-2'>{legend.legend}</p>
         <p className='font-secondary opacity-50'>{legend.type}</p>
       </div>

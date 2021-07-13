@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../navbar'
-import { ReactComponent as ApexLogo } from '../../public/images/apex-logo.svg'
+import ApexLogo from '../../public/images/apex-logo.svg'
 
 const Header = () => {
   return (

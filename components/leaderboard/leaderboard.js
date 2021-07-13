@@ -9,7 +9,7 @@ import LEADERBOARD from '../../fixtures/leaderboard'
 const Item = ({ user, num }) => (
   <li className='item'>
     <span className={clsx('num', num < 4 && 'text-brand')}>{num}</span>
-    <div className='avatar'>
+    <div className='avatar mr-4 -small'>
       <Image src={user.img} alt='item' layout='fill' />
     </div>
     <div className='sub'>

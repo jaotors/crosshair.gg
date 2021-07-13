@@ -26,12 +26,6 @@
     @apply flex;
   }
 
-  & > .content > .avatar {
-    @apply mr-4;
-    width: 64px;
-    height: 64px;
-  }
-
   & > .content > .sub > .name {
     @apply text-2xl font-secondary text-white;
   }

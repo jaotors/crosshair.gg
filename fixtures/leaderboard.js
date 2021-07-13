@@ -1,66 +1,55 @@
 import parseToDigits from '../helpers/parseToDigits'
 
-import shroud from '../public/images/shroud.png'
-import daltoosh from '../public/images/daltoosh.png'
-import termk47 from '../public/images/termk47.png'
-import finicki from '../public/images/finicki.png'
-import tsm_diegosaurs from '../public/images/tsm_diegosaurs.png'
-import cujothagod from '../public/images/cujothagod.png'
-import joker47jk from '../public/images/joker47jk.png'
-import jxys0n333ttv from '../public/images/jxys0n333ttv.png'
-import rhinottv from '../public/images/rhinottv.png'
-import tlifted from '../public/images/100t_lifted.png'
-
 const LEADERBOARD = [
   {
     name: 'shroud',
     meta: `${parseToDigits(24586)} kills`,
-    img: shroud,
+    img: '/images/shroud.png',
   },
   {
     name: 'Daltoosh',
     meta: `${parseToDigits(26532)} kills`,
-    img: daltoosh,
+    img: '/images/daltoosh.png',
   },
   {
     name: 'termk47',
     meta: `${parseToDigits(24919)} kills`,
-    img: termk47,
+    img: '/images/termk47.png',
   },
   {
     name: 'Finicki',
     meta: `${parseToDigits(24496)} kills`,
-    img: finicki,
+    img: '/images/finicki.png',
   },
   {
     name: 'TSM_DIEGOSAURS',
     meta: `${parseToDigits(23827)} kills`,
-    img: tsm_diegosaurs,
+    img: '/images/tsm_diegosaurs.png',
   },
   {
     name: 'Cujothagod',
     meta: `${parseToDigits(23786)} kills`,
-    img: cujothagod,
+    img: '/images/cujothagod.png',
   },
   {
     name: 'Joker47jk',
     meta: `${parseToDigits(23198)} kills`,
-    img: joker47jk,
+    img: '/images/joker47jk.png',
   },
   {
     name: 'jxys0n333ttv',
     meta: `${parseToDigits(22864)} kills`,
-    img: jxys0n333ttv,
+    img: '/images/jxys0n333ttv.png',
   },
   {
     name: 'RhinoTTV',
     meta: `${parseToDigits(19432)} kills`,
-    img: rhinottv,
+    img: '/images/rhinottv.png',
   },
   {
     name: '100T_Lifted',
     meta: `${parseToDigits(19158)} kills`,
-    img: tlifted,
+    img: '/images/100t_lifted.png',
   },
 ]
 

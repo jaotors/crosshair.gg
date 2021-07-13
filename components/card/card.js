@@ -11,7 +11,7 @@ const Card = ({ title, user }) => {
         </a>
       </div>
       <div className='content'>
-        <div className='avatar rounded-full'>
+        <div className='avatar mr-4'>
           <Image src={user.img} alt='card' layout='fill' />
         </div>
         <div className='sub'>

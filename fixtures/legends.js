@@ -1,76 +1,66 @@
-import lifeline from '../public/images/lifeline.png'
-import wraith from '../public/images/wraith.png'
-import bangalore from '../public/images/bangalore.png'
-import bloodhound from '../public/images/bloodhound.png'
-import pathfinder from '../public/images/pathfinder.png'
-import mirage from '../public/images/mirage.png'
-import gibraltar from '../public/images/gibraltar.png'
-import caustic from '../public/images/caustic.png'
-import octane from '../public/images/octane.png'
-
 const LEGENDS = [
   {
     legend: 'Lifeline',
     type: 'Support',
     pickRate: 18.5,
     winRate: 50.03,
-    img: lifeline,
+    img: '/images/lifeline.png',
   },
   {
     legend: 'Wraith',
     type: 'Offense',
     pickRate: 17.1,
     winRate: 49.79,
-    img: wraith,
+    img: '/images/wraith.png',
   },
   {
     legend: 'Bangalore',
     type: 'Offense',
     pickRate: 17.1,
     winRate: 50.28,
-    img: bangalore,
+    img: '/images/bangalore.png',
   },
   {
     legend: 'Bloodhound',
     type: 'Offense',
     pickRate: 14.0,
     winRate: 51.01,
-    img: bloodhound,
+    img: '/images/bloodhound.png',
   },
   {
     legend: 'Pathfinder',
     type: 'Support',
     pickRate: 10.2,
     winRate: 50.98,
-    img: pathfinder,
+    img: '/images/pathfinder.png',
   },
   {
     legend: 'Mirage',
     type: 'Offense',
     pickRate: 8.5,
     winRate: 51.52,
-    img: mirage,
+    img: '/images/mirage.png',
   },
   {
     legend: 'Gibraltar',
     type: 'Defense',
     pickRate: 5.2,
     winRate: 49.78,
-    img: gibraltar,
+    img: '/images/gibraltar.png',
   },
   {
     legend: 'Caustic',
     type: 'Defense',
     pickRate: 4.9,
     winRate: 50.73,
-    img: caustic,
+    img: '/images/caustic.png',
   },
   {
     legend: 'Octane',
     type: 'Offense',
     pickRate: 3.9,
     winRate: 52.78,
-    img: octane,
+    img: '/images/octane.png',
   },
 ]
 

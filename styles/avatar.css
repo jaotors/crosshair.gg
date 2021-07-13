@@ -1,0 +1,15 @@
+.avatar {
+  @apply relative;
+
+  width: 64px;
+  height: 64px;
+
+  & > div > img {
+    @apply rounded-full;
+  }
+
+  &.-small {
+    width: 48px;
+    height: 48px;
+  }
+}

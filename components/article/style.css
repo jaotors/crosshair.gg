@@ -1,6 +1,10 @@
 .article {
   @apply rounded-md shadow-base grid grid-cols-3 bg-base-200 bg-opacity-50;
 
+  & > .image {
+    @apply relative;
+  }
+
   & > .image > img {
     @apply w-full;
   }

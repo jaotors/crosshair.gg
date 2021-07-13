@@ -1,7 +1,10 @@
-@import './global.css';
 @import 'tailwindcss/base';
+@import './global.css';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+/* global-components */
+@import './avatar.css';
 
 /* pages css */
 @import '../pages/home/style.css';

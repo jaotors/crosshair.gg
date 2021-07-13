@@ -5,7 +5,7 @@ import {
   Facebook as FbIcon,
 } from '@styled-icons/boxicons-logos'
 
-import { ReactComponent as Logo } from '../../public/images/logo.svg'
+import Logo from '../../public/images/logo.svg'
 
 const Footer = () => {
   return (

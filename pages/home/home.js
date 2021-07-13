@@ -31,7 +31,7 @@ const Home = () => {
             <Card key={i.title} title={i.title} user={i.user} />
           ))}
         </div>
-        <div className='grid grid-cols-3 gap-4'>
+        <div className='grid grid-cols-3 gap-4 mb-12'>
           <GlobalLegendRanking />
           <Leaderboard />
         </div>

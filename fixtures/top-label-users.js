@@ -1,16 +1,12 @@
 import parseToDigits from '../helpers/parseToDigits'
 
-import shroud from '../public/images/shroud.png'
-import chadd from '../public/images/chadd.png'
-import just9n from '../public/images/just9n.png'
-
 const TOP_LABEL_USERS = [
   {
     title: 'Most Kills',
     user: {
       name: 'shroud',
       meta: `${parseToDigits(24586)} kills`,
-      img: shroud,
+      img: '/images/shroud.png',
     },
   },
   {
@@ -18,7 +14,7 @@ const TOP_LABEL_USERS = [
     user: {
       name: 'chadd',
       meta: `${parseToDigits(447)} wins`,
-      img: chadd,
+      img: '/images/chadd.png',
     },
   },
   {
@@ -26,7 +22,7 @@ const TOP_LABEL_USERS = [
     user: {
       name: 'just9n',
       meta: `Level ${parseToDigits(653)}`,
-      img: just9n,
+      img: '/images/just9n.png',
     },
   },
 ]
