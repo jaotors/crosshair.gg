@@ -3,8 +3,13 @@ const withImages = require('next-images')
 module.exports = withImages({
   reactStrictMode: true,
   webpack: (config) => {
-    const found = config.module.rules.findIndex((rule) =>
-      rule.test?.exec('u.svg')
+    /*
+     * problem: having an error using @svgr/webpack to use svg
+     * as component.
+     * solution: https://github.com/gregberge/svgr/issues/361
+     */
+    const found = config.module.rules.findIndex(
+      (rule) => rule.test && rule.test.exec('u.svg')
     )
     config.module.rules[found].test = /\.(jpe?g|png|gif)$/i
 
